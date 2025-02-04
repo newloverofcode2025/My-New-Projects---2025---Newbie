@@ -34,7 +34,6 @@ Welcome to my GitHub! I’m passionate about writing clean, efficient code and e
 > – Steve McConnell
 
 ### 🌐 Let's Connect
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/yourhandle)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abhishekninja/)
 
 📫 **Reach out**: abhishekninja@yahoo.com 
