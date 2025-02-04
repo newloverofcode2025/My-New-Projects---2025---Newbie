@@ -1,7 +1,7 @@
 # Hi there, I'm Abhishek Banerjee! 👋
 
 🌱 **Python Developer** | 🚀 Building Tools That Solve Problems  
-Welcome to my GitHub! I’m passionate about writing clean, efficient code and exploring the endless possibilities of Python.  
+Welcome to my GitHub! I’m passionate about writing clean, efficient code and exploring the endless possibilities of Python. As a newbie i am learning my way through the world of programming; python is enabling me to understand how it is beautiful and sometimes difficult behind small simple things. 
 
 ### 🛠️ Tech Stack
 **Languages & Tools**  
