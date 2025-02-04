@@ -1,0 +1,1 @@
+Welcome to Alpha Vantage! Here is your API key: TT61EACSPTGKYXSX. Please record this API key at a safe place for future data access.
