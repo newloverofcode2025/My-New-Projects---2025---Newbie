@@ -1,0 +1,14 @@
+[
+    {
+        "type": "income",
+        "description": "salary",
+        "amount": 45000.0,
+        "category": "monthly salary"
+    },
+    {
+        "type": "expense",
+        "description": "grocery",
+        "amount": 10000.0,
+        "category": "food"
+    }
+]
