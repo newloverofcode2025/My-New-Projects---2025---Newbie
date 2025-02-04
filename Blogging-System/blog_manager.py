@@ -5,13 +5,14 @@ from datetime import datetime
 
 class BlogPost:
     def __init__(self, title, content, author):
-        self.id = str(uuid.uuid4())
+        self.id = str(datetime.now().timestamp())
         self.title = title
         self.content = content
         self.author = author
         self.timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
     def to_dict(self):
+        """Convert the blog post to a dictionary."""
         return {
             "id": self.id,
             "title": self.title,
@@ -21,20 +22,21 @@ class BlogPost:
         }
 
 class BlogManager:
-    def __init__(self, file_path):
-        self.file_path = file_path
+    def __init__(self, filename):
+        self.filename = filename
         self.posts = self.load_posts()
 
     def load_posts(self):
-        """Load blog posts from the JSON file."""
-        if os.path.exists(self.file_path):
-            with open(self.file_path, 'r') as file:
+        """Load posts from a file."""
+        try:
+            with open(self.filename, 'r') as file:
                 return json.load(file)
-        return []
+        except FileNotFoundError:
+            return []
 
     def save_posts(self):
-        """Save blog posts to the JSON file."""
-        with open(self.file_path, 'w') as file:
+        """Save posts to a file."""
+        with open(self.filename, 'w') as file:
             json.dump(self.posts, file, indent=4)
 
     def create_post(self, title, content, author):
