@@ -1,8 +1,19 @@
-version: '3.4'
+version: '3.8'  
 
-services:
-  distributedtaskqueue:
-    image: distributedtaskqueue
-    build:
-      context: .
-      dockerfile: ./Dockerfile
+services:  
+  redis:  
+    image: redis:7-alpine  
+    ports:  
+      - "6379:6379"  
+
+  api:  
+    build: ./api  
+    ports:  
+      - "8000:8000"  
+    depends_on:  
+      - redis  
+
+  worker:  
+    build: ./worker  
+    depends_on:  
+      - redis  
