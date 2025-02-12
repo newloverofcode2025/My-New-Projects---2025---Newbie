@@ -1,1 +1,6 @@
 Welcome to Alpha Vantage! Here is your API key: TT61EACSPTGKYXSX. Please record this API key at a safe place for future data access.
+
+openeathermap - 012cf7d257b824ebb662b611b9bcd11d
+
+HR Tech Strategist | Developer Passionate About Building People-Centric Systems with Python, Flask & JavaScript | Empowering Workplaces with Tech & Creativity
+
